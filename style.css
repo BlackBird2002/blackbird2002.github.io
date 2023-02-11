@@ -1,0 +1,217 @@
+@font-face {
+	font-family:"breath of the wild";
+	src: url("font/The-Wild-Breath-of-Zelda.otf");
+}
+html {
+	margin: 0;
+	font-family:"breath of the wild","Times New Roman",serif;
+}
+body {
+	margin: 0;
+	background-color: #FFFFFF;
+}
+header h1{
+	display: none;
+}
+header div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#logo img{
+	width: 80%;
+	padding: 10%;
+}
+header nav ul {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	list-style: none;
+	text-decoration: none;
+	font-size: 2em;
+	background-color: #881f24;
+	padding: 5%;
+}
+header nav li {
+	padding: 2%;
+}
+header nav li a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+header nav li a:hover {
+	color: #0eda50;
+}
+header nav li a:focus {
+	color: #0eda50;
+}
+#intro h2 {
+	font-size: 2em;
+	padding: 2%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#intro p {
+	font-size: 1.5em;
+	padding: 2%;
+}
+#main-games {
+	background-color: #FFFFFF;
+	text-align: center;
+	font-size: 1.5em;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	list-style: none;
+}
+#main-games li a {
+	margin-top: 2em;
+	font-size: 1.5em;
+	align-items: center;
+}
+#main-games ul {
+	list-style: none;
+	margin: 0;
+	padding: 3%;
+}
+#main-games ul li{
+	padding-top: 2%;
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+#main-games ul li a {
+	text-decoration: none;
+	font-size: 1.2em;
+	margin: 0;
+	color: #000000;
+}
+#main-games ul li a:hover {
+	color: #0eda50;
+}
+#main-games ul li a:focus {
+	color: #0eda50;
+}
+#main-games h2 {
+	font-size: 1.5em;
+}
+#main-games div {
+	align-self: center;
+	width: 80%;
+}
+#main-games div img{
+	width: 100%;
+}
+#main-games h3 {
+	font-size: 1.4em;
+}
+#main-games p {
+	font-size: 1.2em;
+}
+#main-time {
+	background-color: #FFFFFF;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#main-time h2 {
+	font-size: 2em;
+}
+#main-time div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 80%;
+	padding: 5%;
+}
+#main-time img {
+	width: 100%;
+}
+#main-chara div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 2%;
+	
+}
+#main-chara div img{
+	width:70%;
+}
+#main-chara h2 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 2em;
+}
+#main-chara h3 {
+	font-size: 1.5em;
+	margin: 2%;
+}
+#main-chara p {
+	font-size: 1.4em;
+	margin: 2%;
+}
+#contact h2 {
+	font-size: 3em;
+}
+#contact p {
+	font-size: 3em;
+}
+#contact img {
+	width:100%;
+}
+@media screen and (min-width:768px){
+	
+	header nav ul {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		font-size: 3em;
+	}
+	#intro h2 {
+		font-size: 3em;
+	}
+	#intro p {
+		font-size: 2em;
+	}
+	#main-time h2 {
+		font-size: 3em;
+	}
+	#main-games li a{
+		font-size: 3em;
+	}
+	#main-games ul li a{
+		font-size: 2em;
+	}
+	#main-games ul li p{
+		font-size: 1.2em;
+	}
+	#main-games h2{
+		font-size: 3em;
+	}
+	#main-games h3{
+		font-size: 2.5em;
+	}
+	#main-games div ul {
+		padding: 2%;
+		margin: 0;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 2%;
+	}
+	#main-chara h2 {
+		font-size: 3em;
+	}
+	#main-chara h3 {
+		font-size: 2.5em;
+	}
+	#main-chara p {
+		font-size: 2em;
+	}
+	#main-chara div img {
+		width: 30%
+	}
+}
