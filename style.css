@@ -1,5 +1,7 @@
 html {
         background-color: rgb(105, 18, 188);
+        margin: 0px;
+        padding: 0px;
 }
 img {
         width:80%;
@@ -8,6 +10,8 @@ img {
 @media screen and (min-width: 768px){ /*tablet*/
     html {
         background-color: white;
+        margin: 0px;
+        padding: 0px;
     }
     img {
         width:30%;
