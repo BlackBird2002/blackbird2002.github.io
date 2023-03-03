@@ -1,7 +1,11 @@
 html {
-        background-color: rgb(105, 18, 188);
-        margin: 0px;
-        padding: 0px;
+    background-color: rgb(195, 161, 227);
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    margin: 0px;
+    padding: 0px;
 }
 img {
         width:80%;
