@@ -11,14 +11,26 @@ h1{
     color: beige;
     display: none;
 }
+img#logo {
+    width:50%;
+}
 img {
-        width:80%;
+    width:80%;
+}
+header {
+    display: flex;
+    flex-direction: column;
+}
+nav {
+    width: 50%;
 }
 li#deroulant {
     display: none;
 }
 a {
+    text-decoration: none;
     color: beige;
+    font-size: 20px;
 }
 h2 {
     font-size: 20px;
@@ -46,10 +58,9 @@ p {
     header {
         height: 100%;
         display: flex;
-        flex-direction: row;
+        flex-direction: row-reverse;
     }
     h1{
-        color: beige;
         display: none;
     }
     img#logo {
@@ -63,22 +74,18 @@ p {
     }
     a {
         text-decoration: none;
-        color: beige;
+        font-size: 25px;
     }
     h2 {
         font-size: 35px;
-        color: beige;
     }
     h3 {
         font-size: 30px;
-        color: beige;
     }
     h4 {
         font-size: 25px;
-        color: beige;
     }
     p {
         font-size: 20px;
-        color: beige;
     }
 }
