@@ -12,7 +12,7 @@ h1{
     display: none;
 }
 img#logo {
-    width:50%;
+    width:80%;
 }
 img {
     width:80%;
@@ -22,7 +22,7 @@ header {
     flex-direction: column;
 }
 nav {
-    width: 50%;
+    width: 20%;
 }
 li#deroulant {
     display: none;
@@ -30,7 +30,7 @@ li#deroulant {
 a {
     text-decoration: none;
     color: beige;
-    font-size: 20px;
+    font-size: 10px;
 }
 h2 {
     font-size: 20px;
@@ -47,6 +47,7 @@ h4 {
 p {
     font-size: 5px;
     color: beige;
+    font-size: 10px;
 }
 
 @media screen and (min-width: 768px){ /*tablet*/
@@ -64,9 +65,12 @@ p {
         display: none;
     }
     img#logo {
-        width: 50%;
+        width: 80%;
     }
     img {
+        width: 20%;
+    }
+    nav {
         width: 20%;
     }
     ul {
