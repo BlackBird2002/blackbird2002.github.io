@@ -1,121 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="generator" content="visual studio code">
-		<meta name="author" content="Hélène Tsirimikos">
-		<meta name="viewport" content="width=device-width,initial-scale=1.0">
-		<title>Portfolio</title>
-  		<meta name="description" content="Hello, my name is Helene Tsirimikos. 
-		I'm a 21 years old Graphique designer. I'm from belgium. I am good at Industriel Drawings and Designs.">
+<head>
+	<!-- Meta Tags -->
+	<meta charset="utf-8">
+	<meta name="author" content="Hélène Tsirimikos">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta name="keywords" content="young graphic designer, portfolio, hélène tsirimikos, graphic designer portfolio">
+	<meta name="description" content="Hello, my name is Helene Tsirimikos. I'm a 21 years old Graphique designer. I'm from belgium. I am good at Industriel Drawings and Designs.">
 
-		<!-- Facebook Meta Tags -->
-		<meta property="og:url" content="https://blackbird2002.github.io/">
-		<meta property="og:type" content="website">
-		<meta property="og:title" content="Portfolio">
+	<!-- Open Graph Meta Tags -->
+	<meta property="og:url" content="https://blackbird2002.github.io/">
+	<meta property="og:title" content="Portfolio">
+	<meta property="og:description" content="Hello, my name is Helene Tsirimikos. I'm a 21 years old Graphique designer. I'm from belgium. I am good at Industriel Drawings and Designs.">
+	<meta property="og:image" content="./img/OpenGraph.webp">
 
-		<meta property="og:description" content="Hello, my name is Helene Tsirimikos. 
-		I'm a 21 years old Graphique designer. I'm from belgium. I am good at Industriel Drawings and Designs.">
-		<meta property="og:image" content="https://blackbird2002.github.io/img/logo_2.webp">
-
-		<!-- Twitter Meta Tags -->
-		<meta name="twitter:card" content="summary_large_image">
-		<meta property="twitter:domain" content="https://blackbird2002.github.io/">
-		<meta property="twitter:url" content="https://blackbird2002.github.io/">
-		<meta name="twitter:title" content="Portfolio">
-		<meta name="twitter:description" content="Hello, my name is Helene Tsirimikos. 
-		I'm a 21 years old Graphique designer. I'm from belgium. I am good at Industriel Drawings and Designs.">
-		<meta name="twitter:image" content="https://blackbird2002.github.io/img/logo_2.webp">
-		
-		<!-- Meta Tags Generated via https://www.opengraph.xyz -->
-        
-		<link rel="stylesheet" href="style.css" type="text/css">
-		<link rel="icon" href="">
-
-		<script async src="https://www.googletagmanager.com/gtag/js?id=G-6KTB0M0R2B"></script>
-		<script>
- 		window.dataLayer = window.dataLayer || [];
-  		function gtag(){dataLayer.push(arguments);}
-  		gtag('js', new Date());
-  		gtag('config', 'G-6KTB0M0R2B');
-		</script>
-
-	</head>
+	<!-- Twitter Meta Tags -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta property="twitter:url" content="https://blackbird2002.github.io/">
+	<meta name="twitter:title" content="Portfolio">
+	<meta name="twitter:description" content="Hello, my name is Helene Tsirimikos. I'm a 21 years old Graphique designer. I'm from belgium. I am good at Industriel Drawings and Designs.">
+	<meta name="twitter:image" content="./img/OpenGraph.webp">
+    
+	<!-- Link -->
+	<title>Portfolio</title>
+	<link rel="stylesheet" href="styles.css" type="text/css">
+	<link rel="icon" href="./img/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="./img/apple-icon.png">
+	
+	<!-- Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-6KTB0M0R2B"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-6KTB0M0R2B');
+	</script>
+</head>
 	<body>
 		<header>
-			<h1>Hélène Tsirimikos's Portfolio</h1>
-			<nav id="nav">
+			<nav>
 				<ul>
-					<li><a href="#nav">Logo</a></li>
-
-					<li><a href="#intro">Introduction</a></li>
-					<li><a href="#works">My works</a></li>
-					<li><a href="#Designs">Designs</a></li>
-					<li class="deroulant"><a href="#beer">Beer label and mertch</a></li>
-					<li class="deroulant"><a href="#livre">Magazine design</a></li>
-					<li class="deroulant"><a href="#vector">Vector illustration</a></li>
-
-					<li><a href="#constru">Construction</a></li>
-					<li class="deroulant"><a href="#indu">Industriel Drawings</a></li>
-					<li class="deroulant"><a href="#house">3D house</a></li>
-
-					<li><a href="#ani3d">Animation and 3D</a></li>
-					<li class="deroulant"><a href="#ani">Animation</a></li>
-					<li class="deroulant"><a href="#3d">3D object</a></li>
-
+					<li><a href="#home"><h1><img class="navImg" src="./img/favicon.ico" alt="Icon du site"></h1></a></li>
+					<li><a href="#about">About me</a></li>
+					<li><a href="#works">My Works</a></li>
 				</ul>
 			</nav>
-			<img id="logo" src="img/logo_1.webp" alt="Logo Helene">
 		</header>
 		<main>
-			
-			<h2 id="intro">About Hélène Tsirimikos</h2>
-			<div>
-				<p>Hello, my name is Hélène Tsirimikos. I am a 21 years old graphique designer. I am from Belgium and I speak French and English. I am good at Industriel Drawings and Designs. Both are of great interest to me.  </p>
-			</div>
-
-			<h3 id="works">My works</h3>
-			<div>
-				<h4 id="Designs">Designs</h4>
-				<p id="beer">Beer label and Merch</p>
-				<img width="100" src="img/bierre_1.webp" alt="beer label">
-				<img src="img/bierre_2.webp" alt="bottle of beer">
-				<img src="img/Capsule.webp" alt="beer cap">
-				<img src="img/T-shirt2.webp" alt="T-shirt">
-
-				<p id="livre">Magazine design</p>
-				<img src="img/article6.webp" alt="metre le pdf a la place">
-				<img src="img/article7.webp" alt="">
-
-				<p id="vector">Vector illustration</p>
-				<img src="img/bat_jour.webp" alt="">
-				<img src="img/bat_nuit.webp" alt="">
-
-			</div>
-
-			<h3 id="constru">Construction</h3>
-			<div>
-				<p id="indu">Industriel Drawings</p>
-				<img src="img/2.webp" alt="">
-				<img src="img/4.webp" alt="">
-
-				<p id="house">3D house</p>
-				<img src="img/maison1.webp" alt="">
-				<img src="img/maison2.webp" alt="">
-
-			</div>
-
-			<h3 id="ani3d">Animation and 3D</h3>
-			<div>
-				<p id="ani">Animation</p>
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/B64ePikOKnk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-				
-				<p id="3d">3D object</p>
-				<img src="img/1.webp" alt="">
-				<img src="img/3.webp" alt="">
-
-			</div>
-
+			<img id="home" src="./img/mainLogo.webp" alt="Logo du site">
+			<article id="about">
+				<h2>About me</h2>
+				<p>Hello, my name is Helene Tsirimikos. I'm a 21 years old Graphique designer. I'm from belgium. I am good at Industriel Drawings and Designs.</p>
+			</article>
+			<article id="works">
+				<h2>My Works</h2>
+				<section>
+					<h3>Vector Graphics</h3>
+					<p></p>
+				</section>
+				<section>
+					<h3>Product Design</h3>
+					<p></p>
+				</section>
+				<section>
+					<h3>Construction</h3>
+					<p></p>
+				</section>
+			</article>
 		</main>
+		<footer>
+			
+		</footer>
+
+	
 	</body>
-</html>
