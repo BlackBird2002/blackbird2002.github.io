@@ -184,10 +184,13 @@ main > section {
         width: 100%;
     }
     main > img {
-        width: 80%;
+        width: 65%;
         padding-bottom: 5vh;
         padding: 5%;
 
+    }
+    main > article{
+        width: 50%;
     }
 
     main > article > h2 {
@@ -195,24 +198,24 @@ main > section {
         padding-bottom: 2vh;
     }
 
+    
     main > article > p {
         font-size: 1.6rem;
         padding-bottom: 2vh;
     }
 
-    main > section > div {
+    main > article > section > div {
         display: flex;
-		flex-direction: row;
-		justify-content: space-around;
-		flex-wrap: nowrap;
-		align-items: center;
+	    flex-direction: row;
+	    justify-content: space-around;
+	    flex-wrap: nowrap;
+	    align-items: center;
+        width: 100%;
+        padding: 2%;
+    }
+
+    main > article > section > div > img {
+        width: 65%;
+        padding: 2%;
     }
 }
-/*
-<p style="
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	flex-wrap: nowrap;
-	align-items: center">
-*/
