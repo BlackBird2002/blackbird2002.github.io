@@ -67,7 +67,9 @@ header > nav > ul > li > a:hover {
     transition: color 0.25s ease-in-out;
     color: #94DEE2;
 }
-
+header > nav > ul > li > a {
+    font-size: 1.2rem;
+}
 header > nav > ul > li > a > h1 {
     font-size: 1rem;
     padding: 0;
@@ -94,12 +96,12 @@ main > img {
 }
 
 main > article > h2 {
-    font-size: 3rem;
+    font-size: 1.5rem;
     padding-bottom: 2vh;
 }
 
 main > article > p {
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     padding-bottom: 2vh;
 }
 
@@ -170,6 +172,10 @@ main > section {
     header > nav > ul > li > a:hover {
         transition: color 0.25s ease-in-out;
         color: #94DEE2;
+    }
+    
+    header > nav > ul > li > a {
+        font-size: 3rem;
     }
 
     header > nav > ul > li > a > h1 {
