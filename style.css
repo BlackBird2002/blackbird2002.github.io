@@ -12,7 +12,16 @@ body {
     padding: 0;
 }
 
+img {
+    width: 100%;
+}
+
 /* Header */ 
+
+h1 {
+    display: none;
+}
+
 
 header {
     display: flex;
@@ -21,56 +30,58 @@ header {
     margin: 0;
 }
 
-header > nav {
+header>nav {
     padding: 2vh 0 0;
     margin: 0;
     width: 80%;
 }
 
-header > nav > ul {
+header>nav>ul {
     display: flex;
     justify-content: space-around;
     align-items: center;
     list-style: none;
     margin: 0;
+    padding: 0;
 }
 
-header > nav > ul > li:nth-child(1) {
+header>nav>ul>li:nth-child(1) {
     order: 2;
 }
 
-header > nav > ul > li:nth-child(2) {
+header>nav>ul>li:nth-child(2) {
     order: 1;
 }
 
-header > nav > ul > li:nth-child(3) {
+header>nav>ul>li:nth-child(3) {
     order: 3;
 }
 
-header > nav > ul > li {
+header>nav>ul>li {
     text-transform: uppercase;
     font-size: 1.5rem;
 }
 
-header > nav > ul > li > a {
+header>nav>ul>li>a {
+    display: block;
     transition: color 0.25s ease-in-out;
     text-decoration: none;
     color: beige;
-    padding: 2vh;
+    padding: 2vh 10%;
 }
 
-header > nav > ul > li > a:nth-child(1) {
+/*header>nav>ul>li>a:nth-child(1) {
     padding: 0;
-}
+}*/
 
-header > nav > ul > li > a:hover {
+header>nav>ul>li>a:hover {
     transition: color 0.25s ease-in-out;
     color: #94DEE2;
 }
-header > nav > ul > li > a {
+header>nav>ul>li>a {
     font-size: 1.2rem;
 }
-header > nav > ul > li > a > h1 {
+header>nav>ul>li>a>h1 {
     font-size: 1rem;
     padding: 0;
     margin: 0;
@@ -88,25 +99,29 @@ main {
     color : beige;
 }
 
-main > img {
+main>img {
     width: 65%;
     padding-bottom: 5vh;
     padding: 5%;
 
 }
 
-main > article > h2 {
+main>article {
+    padding: 10%;
+}
+
+main>article>h2 {
     font-size: 1.5rem;
     padding-bottom: 2vh;
 }
 
-main > article > p {
+main>article>p {
     font-size: 1.2rem;
     padding-bottom: 2vh;
 }
 
-main > section {
-    width: 100%;
+main>section {
+    width: 80%;
 }
 
 @media screen and (min-width:800px){
@@ -125,15 +140,23 @@ main > section {
         padding: 0;
     }
 
+
     /* Header */ 
 
-    header > nav {
-        padding: 2vh 0 0;
+    header {
+        display: flex;
+        justify-content: center;
+        padding: 0;
         margin: 0;
-        width: 90%;
     }
 
-    header > nav > ul {
+    header>nav {
+        padding: 2vh 2vh 2vh;
+        margin: 0;
+        width: 80%;
+    }
+
+    header>nav>ul {
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -141,44 +164,44 @@ main > section {
         margin: 0;
     }
 
-    header > nav > ul > li:nth-child(1) {
+    header>nav>ul>li:nth-child(1) {
         order: 2;
     }
 
-    header > nav > ul > li:nth-child(2) {
+    header>nav>ul>li:nth-child(2) {
         order: 1;
     }
 
-    header > nav > ul > li:nth-child(3) {
+    header>nav>ul>li:nth-child(3) {
         order: 3;
     }
 
-    header > nav > ul > li {
+    header>nav>ul>li {
         text-transform: uppercase;
         font-size: 1.5rem;
     }
 
-    header > nav > ul > li > a {
+    header>nav>ul>li>a {
         transition: color 0.25s ease-in-out;
         text-decoration: none;
         color: beige;
         padding: 2vh;
     }
 
-    header > nav > ul > li > a:nth-child(1) {
+    header>nav>ul>li>a:nth-child(1) {
         padding: 0;
     }
 
-    header > nav > ul > li > a:hover {
+    header>nav>ul>li>a:hover {
         transition: color 0.25s ease-in-out;
         color: #94DEE2;
     }
     
-    header > nav > ul > li > a {
+    header>nav>ul>li>a {
         font-size: 3rem;
     }
 
-    header > nav > ul > li > a > h1 {
+    header>nav>ul>li>a>img {
         font-size: 1rem;
         padding: 0;
         margin: 0;
@@ -189,38 +212,40 @@ main > section {
     main {
         width: 100%;
     }
-    main > img {
+
+    main>img {
         width: 65%;
         padding-bottom: 5vh;
         padding: 5%;
 
     }
-    main > article{
-        width: 50%;
+
+    main>article>img {
+        width: 65%;
     }
 
-    main > article > h2 {
+    main>article>h2 {
         font-size: 3rem;
         padding-bottom: 2vh;
     }
 
     
-    main > article > p {
+    main>article>p {
         font-size: 1.6rem;
-        padding-bottom: 2vh;
+        padding-bottom: 1vh;
     }
 
-    main > article > section > div {
+    main>article>section>div {
         display: flex;
 	    flex-direction: row;
 	    justify-content: space-around;
 	    flex-wrap: nowrap;
 	    align-items: center;
-        width: 100%;
-        padding: 2%;
+        width: 90%;
+        padding: 1%;
     }
 
-    main > article > section > div > img {
+    main>article>section>div>img {
         width: 65%;
         padding: 2%;
     }
