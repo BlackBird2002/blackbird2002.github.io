@@ -99,6 +99,13 @@ main {
     color : beige;
 }
 
+main>h2 {
+    font-size: 1.5rem;
+    display: flex;
+    align-items: baseline;
+
+}
+
 main>img {
     width: 65%;
     padding-bottom: 5vh;
@@ -112,13 +119,54 @@ main>article {
 
 main>article>h2 {
     font-size: 1.5rem;
-    padding-bottom: 2vh;
+
 }
 
 main>article>p {
     font-size: 1.2rem;
     padding-bottom: 2vh;
 }
+
+
+#logiciels {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+
+.logiciel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 300px;
+    margin: 40px;
+}
+
+.logiciel img {
+    width: 70px;
+    height: 70px;
+}
+
+div {
+    display: block;
+}
+
+#logiciels img{
+    max-height: 100px;
+    overflow: clip;
+    
+}
+
+.light-grey{
+    background-color: #5a5d6c;
+    width: 110px;
+}
+.prog {
+    background-color: #94DEE2;
+    height: 15px;
+}
+
 
 main>section {
     width: 80%;
@@ -213,6 +261,10 @@ main>section {
         width: 100%;
     }
 
+    main>h2 {
+        font-size: 3rem;
+    }
+
     main>img {
         width: 65%;
         padding-bottom: 5vh;
@@ -226,9 +278,11 @@ main>section {
 
     main>article>h2 {
         font-size: 3rem;
-        padding-bottom: 2vh;
     }
 
+    main>section>h2 {
+        font-size: 3rem;
+    }
     
     main>article>p {
         font-size: 1.6rem;
