@@ -113,8 +113,22 @@ main>img {
 
 }
 
+.bat img {
+    width: 35%;
+}
+
 main>article {
     padding: 2% 10%;
+}
+
+main>article>section>div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 100%;
+    padding: 1%;
 }
 
 main>article>h2 {
@@ -144,18 +158,12 @@ main>article>p {
 }
 
 .logiciel img {
-    width: 70px;
-    height: 70px;
+    width: 25%;
+    height: 25%;
 }
 
 div {
     display: block;
-}
-
-#logiciels img{
-    max-height: 100px;
-    overflow: clip;
-    
 }
 
 .light-grey{
@@ -272,10 +280,6 @@ main>section {
 
     }
 
-    main>article>img {
-        width: 65%;
-    }
-
     main>article>h2 {
         font-size: 3rem;
     }
@@ -295,12 +299,17 @@ main>section {
 	    justify-content: space-around;
 	    flex-wrap: nowrap;
 	    align-items: center;
-        width: 90%;
+        width: 100%;
         padding: 1%;
     }
 
-    main>article>section>div>img {
+   .treed img {
         width: 65%;
         padding: 2%;
     }
+
+    .bat img {
+        width: 35%;
+    }
+    
 }
