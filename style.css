@@ -127,7 +127,7 @@ main>article {
 main>article>section>div {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: nowrap;
     align-items: center;
     width: 100%;
